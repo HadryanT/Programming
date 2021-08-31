@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() {
+
+  int guess;
+  
+  int tries = 0;
+
+  std::cout << "Tengo un numero del 1 al 10.\n";
+  std::cout << "Adivinalo a la verga: ";
+  std::cin >> guess;
+ 
+  // Write a while loop here:
+  
+  while (guess != 8 && tries < 50) {
+
+    std::cout << "JAJAJA Eres un pendejo intenta otra vez:";
+    std::cin >> guess;
+
+    tries++;
+  }
+  
+  
+  
+  if (guess == 8) {
+    
+    std::cout << "¡Ese mero culero!\n";
+  
+  }  
+  
+}
